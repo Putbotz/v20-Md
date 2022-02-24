@@ -1,7 +1,7 @@
 {
-    "name": "KingOfBear-Md",
+    "name": "Putbotz",
     "version": "0.4.5",
-    "description": "Simle Bot WhatsApp with Baileys Multi Device",
+    "description": "Putbotz with Baileys Multi Device",
     "depecrated": false,
     "main": "index.js",
     "directories": {
