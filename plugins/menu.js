@@ -47,8 +47,6 @@ const defaultMenu = {
 ┏━ꕥ
 ┃✾ Uptime: *%uptime (%muptime)*
 ┃✾ Database: %rtotalreg dari %totalreg
-┃✾ Youtube:
-┃✾ https://pastelink.net/v20Md
 ┗━━━━━━ꕥ
 %readmore`.trimStart(),
   header: '╭─「 %category 」',
