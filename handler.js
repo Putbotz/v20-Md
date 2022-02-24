@@ -178,10 +178,10 @@ module.exports = {
                     if (!('sBye' in chat)) chat.sBye = ''
                     if (!('sPromote' in chat)) chat.sPromote = ''
                     if (!('sDemote' in chat)) chat.sDemote = ''
-                    if (!('delete' in chat)) chat.delete = true
+                    if (!('delete' in chat)) chat.delete = false
                     if (!('antiBadword' in chat)) chat.antiBadword = false
                     if (!('antiLink' in chat)) chat.antiLink = false
-                    if (!('rpg' in chat)) chat.delete = true
+                    if (!('rpg' in chat)) chat.delete = false
                     if (!('nsfw' in chat)) chat.delete = false
                     if (!('simi' in chat)) chat.simi = false
                     if (!('viewonce' in chat)) chat.viewonce = false
@@ -194,14 +194,14 @@ module.exports = {
                     sBye: '',
                     sPromote: '',
                     sDemote: '',
-                    delete: true,
+                    delete: false,
                     antiLink: false,
                     rpg: true,
                     nsfw: false,
                     simi: false,
                     viewonce: false,
                     antiBadword: false,
-                    antiToxic: true,
+                    antiToxic: false,
                 }
                 
         let settings = global.db.data.settings
@@ -225,7 +225,7 @@ module.exports = {
           backup: false,
           backupDB: 0,
           groupOnly: false,
-          jadibot: false,
+          jadibot: true,
           nsfw: false,
           status: 0,
         }                
